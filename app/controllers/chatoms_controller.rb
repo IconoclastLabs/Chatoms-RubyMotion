@@ -21,7 +21,7 @@ class ChatomsController < UIViewController
     button_spot = 7.5 * unit
     @big_font = 34
 
-    if ipad?
+    if Device.ipad?
       @big_font = 80
       text_spot = unit * 6
       button_spot = 8 * unit
